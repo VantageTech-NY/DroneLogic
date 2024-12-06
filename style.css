@@ -293,7 +293,7 @@ h6.light,
 /* accordion */
 .accordion {
   --bs-accordion-active-color: var(--bs-dark);
-  --bs-accordion-active-bg: transparent; 
+  --bs-accordion-active-bg: transparent;
 }
 .accordion-button {
   margin: 0;
@@ -1346,7 +1346,7 @@ This is main CSS file that contains custom style rules used in this template
   height: var(--header-height);
   display: flex;
   align-items: center;
-  background-color: var(--dark-color);
+  background-color: white;
   padding: 40px;
   margin-right: 60px;
   transition: 0.5s all ease-out;
@@ -1355,7 +1355,7 @@ This is main CSS file that contains custom style rules used in this template
   z-index: 1;
 }
 
-.main-logo a {
+.main-logo dl {
   font-family: "playfair display", Georgia, serif;
   font-size: 5em;
   color: #fff;
@@ -1365,7 +1365,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .side-nav-bar {
   position: absolute;
-  z-index: 10;
+  z-index: 5;
 }
 
 /* Header Menu
